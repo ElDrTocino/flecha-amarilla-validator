@@ -16,6 +16,7 @@ dependencies {
 
     implementation enforcedPlatform("io.quarkus:quarkus-bom:3.9.2")
 
+
     // Lombok
     compileOnly 'org.projectlombok:lombok:1.18.32'
     annotationProcessor 'org.projectlombok:lombok:1.18.32'

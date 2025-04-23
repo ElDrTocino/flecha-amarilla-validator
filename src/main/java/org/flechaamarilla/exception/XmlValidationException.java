@@ -1,7 +1,10 @@
 package org.flechaamarilla.exception;
 
+import lombok.Getter;
+
 import java.util.List;
 
+@Getter
 public class XmlValidationException extends Exception {
 
     private final List<String> validationErrors;
@@ -11,7 +14,4 @@ public class XmlValidationException extends Exception {
         this.validationErrors = errors;
     }
 
-    public List<String> getValidationErrors() {
-        return validationErrors;
-    }
 }
