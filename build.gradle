@@ -14,10 +14,6 @@ dependencies {
     implementation 'io.quarkus:quarkus-rest-jackson'
     implementation 'io.quarkus:quarkus-arc'
 
-    // Core Reactive Messaging
-    implementation 'io.quarkus:quarkus-smallrye-reactive-messaging'
-    implementation 'io.quarkus:quarkus-smallrye-reactive-messaging-rabbitmq'
-
     implementation enforcedPlatform("io.quarkus:quarkus-bom:3.9.2")
 
     // Lombok
